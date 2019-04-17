@@ -19,7 +19,7 @@ def plusMinus(arr):
         neg = neg / tot
         zer = zer / tot
 
-	print("%8.6f"% (pos))
+    print("%8.6f"% (pos))
     print("%8.6f"% (neg))
     print("%8.6f"% (zer))
 	

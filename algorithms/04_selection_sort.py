@@ -1,5 +1,5 @@
 """
-Insertion Sort
+Selection Sort
 """
 from random import randint
 from time import time
@@ -14,7 +14,7 @@ for i in range(0,10000):
 tiempo_inicial = time()
 
 """
-# opcion 1 
+# option 1 
 for i in range(0, len(lista)):
     minimo = lista[i]
     for j in range(i, len(lista)):
@@ -23,7 +23,7 @@ for i in range(0, len(lista)):
             lista[j] = minimo 
             minimo = lista[i]
 """
-# opcion 2             
+# option 2             
 for i in range(0, len(lista)-1):
     minimo = i
     for j in range(i+1,len(lista)):
