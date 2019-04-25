@@ -23,4 +23,6 @@ def sockMerchant(n, ar):
     for i in medias:
         aux = medias[i] // 2
         total += aux
+
+    # resultado
     return total
